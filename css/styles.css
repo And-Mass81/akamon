@@ -1,0 +1,279 @@
+
+
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* gris oscuro = #1b2127 */
+
+
+body{
+    font-family:'Source Sans Pro' , sans-serif;
+    margin: 0;   
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:'Oswald', sans-serif ;
+}
+
+
+h1{
+    font-size: 40px;
+    line-height: 1.5x;
+    color: #464b49;
+    letter-spacing: -.2px;
+    margin:10px 150px 70px 30px;
+}
+
+.text-hero{
+    font-size: 60px;
+}
+.hero{
+    height: 600px;
+    background-color: black ;
+    /* *background-image:url('../img/tapa3.jpg');*/ 
+    /*background-size: 1700px 500px;*/ 
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    }
+
+.hero-img{
+    object-fit: cover ;
+    height: 600px;
+    width: 900px;
+}
+
+.event{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+    margin-bottom: 15px;
+    background: #ed1b24;
+    
+}
+
+
+.event-image{
+    border: 1px solid black;
+    justify-content:space-between ;
+    border-radius: 10px;
+    margin: 0px;   
+}
+
+.titel{
+font-size: 25px;
+}
+
+.project-imageContainer{
+    border: 1px solid black;
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    border-bottom: thin;
+    
+    
+
+}
+
+.header{
+    background-color: white;
+    display:flex;
+    height: 100px;
+    align-items: center; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+} 
+
+.figure {
+    margin:0;
+}
+
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    height: inherit;
+    color: #ed1b24; 
+    font-size: 18px;
+    
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height:inherit;
+    padding: 0 10px;
+}
+
+.title1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.titleteam{
+    margin-left: 20px;
+}
+
+.hkendo{
+    margin-left: 20px;
+    font-size: 40px; 
+}
+
+.footer {
+    color: white;
+    background-color:#1b2127;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.gps{
+margin-right: 400px;
+}
+.facetime{
+    margin-right: 25px;
+}
+.mailto{
+    margin-right: 300px;
+}
+
+
+.project{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background: #ed1b24;
+    flex-wrap: wrap;
+}
+
+.equipTotal{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.team{ 
+    border: 1px solid black;
+    margin: 15px;
+    width: 400px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ed1b24;
+    
+}
+
+.team img{
+width: 320px;
+height: 200px;
+
+}
+
+.team-mem{
+    margin: 20px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.video{
+    border: 1px solid black;
+    margin: 10px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flexbox ;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    background-color: #ed1b24;
+}
+
+.titleEquip {
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+.wrap{
+   
+    max-width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.titleContact{
+    margin-left: 20px;
+    font-size: 40px;        
+}
+
+
+.projectx{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background: #ed1b24;
+    flex-wrap: wrap;
+}
+
+.footer{
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 480px){
+    
+}
+@media screen and (max-width: 320px){
+    
+}

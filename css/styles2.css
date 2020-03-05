@@ -1,0 +1,452 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?8z7vff');
+    src:  url('../fonts/icomoon.eot?8z7vff#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?8z7vff') format('truetype'),
+      url('../fonts/icomoon.woff?8z7vff') format('woff'),
+      url('../fonts/icomoon.svg?8z7vff#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+   font-family: 'Fjalla One' , sans-serif; 
+   font-weight: normal;
+}
+h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: whitesmoke;
+    margin: 0em;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform:uppercase ;  
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.hero{
+    height: 550px;
+    /*background-image: url('../img/tapa3.jpg');*/
+    /*background-size: 1000px 550px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heroImg{
+object-fit: cover;
+}
+
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    flex: wrap;
+}
+ol,
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ figure{
+     margin: 0;
+ }
+ .header a{
+     color: black;
+     text-decoration: none;
+ }
+ .menu{
+     height: inherit;
+ }
+ .header ol {
+     display: flex;
+     height: inherit;
+ }
+ .header ol li {
+     height: inherit;
+ }
+ .header a {
+     display: flex;
+     align-items: center;
+     height: inherit;
+     padding: 0 10px;
+ }
+.dojo{
+    padding: 20px;
+    
+}
+
+.dojoInside{
+    box-shadow: 0px 2px  20px 0px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#ed1b24 ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dojoText{
+    width: 45%;
+    
+}
+.dojoImgContainer{
+    width: 50%;
+      
+}
+.dojoImgContainer img{
+    max-width: 100%;
+}
+
+.tube{
+    max-width: 100%;
+}
+.kendo{
+    padding: 20px;
+    
+}
+
+.kendoInside{
+    box-shadow: 0px 2px  20px 0px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#ed1b24 ;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kendoText{
+    width: 45%;
+    
+}
+
+.kendoImgContainer{
+    width: 50%; 
+    
+}
+.kendoImgContainer img{
+    max-width: 100%; 
+}
+
+.contactInside{
+    box-shadow: 0px 2px  20px 0px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#ed1b24 ;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titleEquip{
+     margin-left: 20px;         
+}
+.equipAll{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Equip2{
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ed1b24;
+    box-shadow: 0px 2px  20px 0px rgba(0,0,0,0.5);
+
+}
+
+.Equip2 img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.equipD{
+    margin: 20px;
+    margin-top:-40px;
+    background-color:whitesmoke;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.contact{
+    padding: 20px;
+    
+}
+
+.contactText{
+    width: 45%;
+    text-align: center; 
+}
+
+.contactImgContainer{
+    width: 50%; 
+}
+.contactImgContainer img{
+    max-width: 100%;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer img{
+  vertical-align: middle;  
+}
+.wrap{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.videoBox{
+    width: 100%;
+    height: 0;
+    padding-top:56.25% ;
+    background-color: black;
+    position: relative;
+}
+.tube{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.burger-button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,.8);
+    display: none;
+    text-align: center;
+    line-height: 45px;
+    position: fixed;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    color: whitesmoke;
+    
+}
+
+@media screen and (max-width: 1024px){
+    .wrap{
+        padding: 0 1em;
+    }
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .heroImg{
+         position: absolute;
+         z-index: 1;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         width: 100%;
+         
+    }
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .burger-button{
+        display: block;
+    }
+    
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: block;
+    }
+    .header li{
+        height: 50px;
+    }
+    .header a{
+        justify-content: center;
+        height: 40px;
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: .5em;
+    }
+    .header .logo{
+        text-align: center;
+    }
+    .menu{
+        position: fixed;
+        background:rgba(237, 27, 36, .9);
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    .menu.is-active{
+        left: 0;
+    }
+    .dojoInside{
+        display: block;
+        font-size: 16px;
+  }
+    .dojoImgContainer{
+        width: auto;
+        text-align: center;
+    }
+   
+    .dojoText{
+        width: auto;
+        font-size: .8em;  
+    }    
+    
+
+    .kendoInside{
+        display: block;
+        font-size: 16px;
+  }
+    .kendoImgContainer{
+        width: auto;
+        text-align: center;
+    }
+   
+    .kendoText{
+        width: auto;
+        font-size: .8em;  
+    }  
+    
+    .contactInside{
+        display: block;
+        font-size: 16px;
+  }
+    .contactImgContainer{
+        width: auto;
+        text-align: center;
+    }
+   
+    .contactText{
+        width: auto;
+        font-size: .8em;  
+    } 
+    .video{
+        width: auto;
+        text-align: center;
+    } 
+     .Equip2{
+         width: auto;
+         flex-shrink: initial;
+         text-align: center;
+     }
+     .Equip2 img{
+         width: 70%;
+     }
+     .equipD{
+         margin: -2em .5em .5em;
+         padding: 1em;
+     }
+     .footer{
+         display: block;
+         text-align: center;
+         border: 1px solid;
+     } 
+     .hero{
+        margin-top: 1em;
+    }  
+    
+}
+@media screen and (max-width: 480px){
+   .h1{
+       font-size: 1.5em ; 
+   }
+   .hero{
+    margin-top: 1em;
+}
+}
+@media screen and (max-width: 320px){
+    
+    .h1{
+        font-size: 1.2em ;
+    }
+    .hero{
+        padding: 2em;
+        margin-top: 1em;
+    }
+}
